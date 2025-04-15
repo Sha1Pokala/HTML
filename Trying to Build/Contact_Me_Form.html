@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact_form_page</title>
+    <style>
+      h1 {
+        font-family: "Courier New";
+      }
+      body {
+        font-family: "Courier New";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Enter your details for reaching out</h1>
+    <form action="/action.php">
+      <p>Enter your name</p>
+      <input type="text" placeholder="Enter Your Name" />
+      <br />
+      <br />
+      <p>Enter your Mail ID</p>
+      <input type="email" placeholder="Enter your Email" />
+      <br />
+      <br />
+      <label for="can_contact_any_time">
+        <input
+          type="radio"
+          value="Home Phone Number"
+          name="Phonenumber"
+          id="can_contact_any_time"
+        />
+        Home Phone Number</label
+      >
+      <label for="Onlyinofficetime">
+        <input
+          type="radio"
+          value="office Phone Number"
+          name="Phonenumber"
+          id="Onlyinofficetime"
+        />
+        Office Phone Number</label
+      >
+      <br />
+      <br />
+      <input type="number" placeholder="Enter your preferred Contact Number" />
+      <br />
+      <br />
+      <p>Enter your Password</p>
+      <input type="password" placeholder="Enter your password" />
+      <br />
+      <br />
+      <br />
+      <p>Reason for Contacting</p>
+      <label for="general_Discussion">
+        <input
+          type="checkbox"
+          value="general_Discussion"
+          name="reason_for_contacting"
+          id="101"
+        />
+        General Discussion
+      </label>
+      <br />
+      <label for="Business_Related_call">
+        <input
+          type="checkbox"
+          value="Business_Related_call"
+          name="reason_for_contacting"
+          id="102"
+        />
+        Business Related call
+      </label>
+      <br />
+      <br />
+      <p>How did you find me</p>
+      <select name="Source">
+        <option value="Linkedin">Linkedin</option>
+        <option value="Google">Google</option>
+        <option value="Instagram">Instagram</option>
+      </select>
+      <br />
+      <br />
+      <p>Feedback</p>
+      <textarea
+        name="Feedback"
+        id="101"
+        placeholder="Please give your feedback on my profile"
+      >
+Feedback on my resume </textarea
+      >
+      <br />
+      <br />
+      <input type="Submit" value="Submit" />
+    </form>
+    <br />
+    <br />
+    <p>Listen to my favourite Song</p>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/Mm1Zp80gj1Q?si=Bm5c-g6c4ISmD1VZ"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
